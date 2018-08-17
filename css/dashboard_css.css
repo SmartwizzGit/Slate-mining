@@ -1,0 +1,261 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .greycolor{
+    background:#F8F8F8 !important;
+ }
+ .navbar_bottom{
+    border-bottom:1px solid #009688;
+ }
+ 
+.light_grey{
+color:#6a6a6a;
+}
+ 
+ .greytext{
+   color:#3D3D3D;
+ }
+ .text{
+  font-size:20px;
+ }
+ 
+ .text2{
+  font-size:15px;
+ }
+ 
+ .greytext2{
+    color:#000;
+	font-size:18px;
+ }
+ 
+  .name{
+    color:#333;
+	font-size:15px;
+ }
+ 
+ .bg_4_welcome{
+    background:#333;
+ }
+ 
+ .greytext_4_reg{
+    color:#333;
+	font-size:15px;
+ }
+ 
+ .testimonial_img{
+    margin-bottom: 10px;
+	max-width: 100%;
+    width: 100px;
+	display: inline-block;
+	height:auto;
+ }
+ .marg{
+    margin-left:25% !important ;
+	margin-top:0 !important;
+ }
+ 
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .regheight{
+  height:600px;
+  
+  }
+  
+  
+  .widget_and_user{
+    margin: 5% 0 0 0;
+  }
+ 
+.rubik{
+font-family: 'Rubik', sans-serif;
+}
+ 
+.f_signika{
+font-family: 'Signika', sans-serif;
+}
+
+.headerTextDelay{
+  -webkit-animation-duration: 1s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: .5s;
+    -moz-animation-iteration-count: 1;
+    -o-animation-duration: 1s;
+    -o-animation-delay: .5s;
+    -o-animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-iteration-count: 1; 
+}
+
+.headerTextHintDelay{
+  -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: 1;
+    -o-animation-duration: 1s;
+    -o-animation-delay: 1s;
+    -o-animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1; 
+}
+
+.actionButDelay{
+  -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 1.5s;
+    -moz-animation-iteration-count: 1;
+    -o-animation-duration: 1s;
+    -o-animation-delay: 1.5s;
+    -o-animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1; 
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000 !important;
+}
+
+.update_bg{
+    background:#009688!important;
+	color:#fff!important;
+}
+
+.button{
+    background:#009688 !important;
+	height:40px;
+	width:100%;
+	color:#fff !important;
+	  margin:20px 0 0 0;
+	 text-align:center;
+	 font-size:14px;
+	 line-height:40px;
+}
+
+
+.button2{
+    background:#333 !important;
+	height:50px;
+	width:80%;
+	 border-radius: 10px 10px;
+	 margin:20px 0 0 10%;
+	 text-align:center;
+	 font-size:12px;
+	 font-weight:normal;
+	 cursor: pointer;
+	 line-height:50px;
+}
+
+.button2 a{
+     
+	 text-decoration:none;
+	 text-align:center;
+	 color:#fff;
+	 font-family: 'Rubik', sans-serif;
+}
+
+.f_khula{
+font-family: 'Khula', sans-serif;
+}
+
+.f_monts{
+font-family: 'Khula', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h5{
+  color:#fff
+}
+
+span{
+  vertical-align:center;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  
+  h3{
+     font-size:1.875rem
+  }
+  
+ nav .brand-logo{
+     font-size:1.25rem;
+  }
+  
+  .marg{
+    margin-left:0% ! important;
+	margin-top:0% !important;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
